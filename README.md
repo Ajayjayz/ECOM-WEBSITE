@@ -47,31 +47,37 @@ It demonstrates core features like:
 ```bash
 cd backend
 dotnet run
+```
+➡️ Runs at: https://localhost:7400/api/products
 
--- Frontend Structure (Vue.js)
-frontend/
-├── public/
-│   └── index.html             # Main HTML file
-├── src/
-│   ├── assets/                # Static images or styles (optional)
-│   ├── components/
-│   │   └── ProductList.vue    # Main component for listing products
-│   ├── App.vue                # Root Vue component
-│   ├── main.js                # Entry point for Vue app
-├── vue.config.js              # Proxy config to connect frontend with backend
-├── package.json               # Project dependencies
+---
 
-📁 Overall Project Structure
+### 🌐 Frontend (Vue.js)
+
+```bash
+cd frontend
+npm install
+npm run serve
+```
+➡️ Runs at: http://localhost:8080
+
+## 📁 Project Structure
+```
 ecom-website/
-├── backend/         → ASP.NET Core Web API
+├── backend/
 │   ├── Controllers/
 │   ├── Models/
 │   └── wwwroot/images/
-├── frontend/        → Vue.js application
-│   ├── src/components/ProductList.vue
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── ProductList.vue
+│   │   └── main.js
+│   ├── App.vue
+│   ├── public/
 │   └── vue.config.js
 ├── README.md
-
+```
 
 
 👤 Author
