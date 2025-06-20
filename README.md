@@ -47,3 +47,41 @@ It demonstrates core features like:
 ```bash
 cd backend
 dotnet run
+
+-- Frontend Structure (Vue.js)
+frontend/
+├── public/
+│   └── index.html             # Main HTML file
+├── src/
+│   ├── assets/                # Static images or styles (optional)
+│   ├── components/
+│   │   └── ProductList.vue    # Main component for listing products
+│   ├── App.vue                # Root Vue component
+│   ├── main.js                # Entry point for Vue app
+├── vue.config.js              # Proxy config to connect frontend with backend
+├── package.json               # Project dependencies
+
+📁 Overall Project Structure
+ecom-website/
+├── backend/         → ASP.NET Core Web API
+│   ├── Controllers/
+│   ├── Models/
+│   └── wwwroot/images/
+├── frontend/        → Vue.js application
+│   ├── src/components/ProductList.vue
+│   └── vue.config.js
+├── README.md
+
+
+
+👤 Author
+
+ Ajay Jayz
+
+🌐 GitHub: @Ajayjayz
+
+🧠 Aspiring Full-Stack Developer
+
+📄 License
+This project is open-source and built for educational/demo purposes.
+Feel free to explore, learn, and build upon it.
